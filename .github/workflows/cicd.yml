@@ -33,5 +33,5 @@ jobs:
         run: |
           git config --global user.name "BLAHARI19"
           git config --global user.email "laharibodduluri10@gmail.com"
-          git remote set-url origin https://x-access-token:${GITHUB_TOKEN}@github.com/${{ github.repository }}.git
+          git remote set-url origin https://x-access-token:${GITHUB_TOKEN}@github.com/BLahari19/frontend.git
           npm run deploy
